@@ -1,0 +1,34 @@
+
+4__sonar_lambda_2$com.clean.code.CustomerOrderManagery
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java2 2(>"1*Õ
+12  2(&W
+U
+2  2(&
+%12java.util.logging.Logger"__id*"
+
+__unknown_file (
+""q
+o
+2, 2(=
+%13java.lang.String"__concat*
+2, 2(5	
+Order: *'
+28 2(=
+
+orderjava.lang.StringÞÛ
+2  2(>
+%14void"2java.util.logging.Logger#info(Ljava/lang/String;)V*=
+
+__unknown_file (!
+
+%12java.util.logging.Logger*5
+
+__unknown_file (
+
+%13java.lang.String2info(Ljava/lang/String;)"
+2  2(>
+
+%14void:%
+2 2(
+orderjava.lang.StringB
+java.util.function.Consumer

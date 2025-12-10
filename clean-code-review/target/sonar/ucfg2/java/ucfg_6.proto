@@ -1,15 +1,37 @@
 
-!com.clean.code.CManager#<init>()V
-__unknown_file ("startingBlock*Ï
-startingBlockk
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java (Ë
-È
-k
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java (
-%0"*com.clean.code.CManager#%field_initializer*'
- (
-com.clean.code.CManager"‚
-k
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java (
-implicit returnB
-com.clean.code.CManager
+4__sonar_lambda_1$com.clean.code.CustomerOrderManagery
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java/ /(J"1*Õ
+1/& /(,V
+T
+/& /(,
+%4java.util.logging.Logger"__id*"
+
+__unknown_file (
+""v
+t
+/2 /(I
+%5java.lang.String"__concat*
+/2 /(>
+
+Customer: **
+/A /(I
+
+customerjava.lang.StringÛØ
+/& /(J
+
+%6void"2java.util.logging.Logger#info(Ljava/lang/String;)V*<
+
+__unknown_file ( 
+
+%4java.util.logging.Logger*4
+
+__unknown_file (
+
+%5java.lang.String2info(Ljava/lang/String;)"
+/& /(J
+
+
+%6void:(
+/ /("
+customerjava.lang.StringB
+java.util.function.Consumer

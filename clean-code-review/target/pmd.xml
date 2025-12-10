@@ -1,80 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-10T02:03:56.274">
-<file name="/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java">
-<violation beginline="6" endline="51" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.clean.code" class="CManager" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
-Each class should declare at least one constructor
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-10T04:01:40.725">
+<file name="/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java">
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="38" rule="FieldNamingConventions" ruleset="Code Style" package="com.clean.code" class="CustomerOrderManager" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
 </violation>
-<violation beginline="11" endline="14" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" package="com.clean.code" class="CManager" method="aC" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
-Avoid using short method names
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="38" rule="VariableNamingConventions" ruleset="Code Style" package="com.clean.code" class="CustomerOrderManager" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
+Variables that are final and static should be all capitals, 'logger' is not all capitals.
 </violation>
-<violation beginline="11" endline="11" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" package="com.clean.code" class="CManager" method="aC" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
-Avoid variables with short names like n
+<violation beginline="13" endline="15" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="com.clean.code" class="CustomerOrderManager" method="CustomerOrderManager" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
 </violation>
-<violation beginline="11" endline="11" begincolumn="20" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CManager" method="aC" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'n' is not assigned and could be declared final
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="com.clean.code" class="CustomerOrderManager" method="addCustomer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
 </violation>
-<violation beginline="13" endline="13" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="aC" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
+<violation beginline="32" endline="32" begincolumn="9" endcolumn="44" rule="GuardLogStatement" ruleset="Best Practices" package="com.clean.code" class="CustomerOrderManager" method="addOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
 </violation>
-<violation beginline="17" endline="20" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" package="com.clean.code" class="CManager" method="aO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
-Avoid using short method names
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="65" rule="GuardLogStatement" ruleset="Best Practices" package="com.clean.code" class="CustomerOrderManager" method="processOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
 </violation>
-<violation beginline="17" endline="17" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" package="com.clean.code" class="CManager" method="aO" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
-Avoid variables with short names like o
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="61" rule="GuardLogStatement" ruleset="Best Practices" package="com.clean.code" class="CustomerOrderManager" method="processOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
 </violation>
-<violation beginline="17" endline="17" begincolumn="20" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CManager" method="aO" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'o' is not assigned and could be declared final
-</violation>
-<violation beginline="19" endline="19" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="aO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="23" endline="28" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" package="com.clean.code" class="CManager" method="pO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
-Avoid using short method names
-</violation>
-<violation beginline="23" endline="23" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" package="com.clean.code" class="CManager" method="pO" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
-Avoid variables with short names like c
-</violation>
-<violation beginline="23" endline="23" begincolumn="20" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CManager" method="pO" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'c' is not assigned and could be declared final
-</violation>
-<violation beginline="24" endline="24" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="pO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="25" endline="27" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.clean.code" class="CManager" method="pO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
-This for loop can be replaced by a foreach loop
-</violation>
-<violation beginline="26" endline="26" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="pO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="31" endline="40" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
-Avoid using short method names
-</violation>
-<violation beginline="32" endline="32" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="33" endline="35" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
-This for loop can be replaced by a foreach loop
-</violation>
-<violation beginline="34" endline="34" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="36" endline="36" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="37" endline="39" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
-This for loop can be replaced by a foreach loop
-</violation>
-<violation beginline="38" endline="38" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.clean.code" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="42" endline="42" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CManager" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="53" endline="53" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CustomerOrderManager" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'args' is not assigned and could be declared final
 </violation>
-<violation beginline="43" endline="43" begincolumn="18" endcolumn="18" rule="ShortVariable" ruleset="Code Style" package="com.clean.code" class="CManager" method="main" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
-Avoid variables with short names like m
-</violation>
-<violation beginline="43" endline="43" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CManager" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
-Local variable 'm' could be declared final
+<violation beginline="54" endline="54" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.clean.code" class="CustomerOrderManager" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'manager' could be declared final
 </violation>
 </file>
 <configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>

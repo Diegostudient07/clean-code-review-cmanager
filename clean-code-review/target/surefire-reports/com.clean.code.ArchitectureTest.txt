@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.clean.code.ArchitectureTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.383 s <<< FAILURE! -- in com.clean.code.ArchitectureTest
-ArchitectureTest.no_public_fields -- Time elapsed: 1.369 s <<< FAILURE!
-java.lang.AssertionError: 
-Architecture Violation [Priority: MEDIUM] - Rule 'fields should not be public, because Los atributos públicos violan encapsulamiento' was violated (2 times):
-Field <com.clean.code.CManager.cList> has modifier PUBLIC in (CManager.java:0)
-Field <com.clean.code.CManager.oList> has modifier PUBLIC in (CManager.java:0)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)
-	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.582 s -- in com.clean.code.ArchitectureTest

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.clean.code.ArchitectureTest" time="1.383" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.clean.code.ArchitectureTest" time="1.582" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.9-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/clean-code-review-cmanager/clean-code-review/target/surefire/surefirebooter-20251210004221195_3.jar /workspaces/clean-code-review-cmanager/clean-code-review/target/surefire 2025-12-10T00-42-21_071-jvmRun1 surefire-20251210004221195_1tmp surefire_0-20251210004221195_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/clean-code-review-cmanager/clean-code-review/target/surefire/surefirebooter-20251210035940258_3.jar /workspaces/clean-code-review-cmanager/clean-code-review/target/surefire 2025-12-10T03-59-40_149-jvmRun1 surefire-20251210035940258_1tmp surefire_0-20251210035940258_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/clean-code-review-cmanager/clean-code-review/target/test-classes:/workspaces/clean-code-review-cmanager/clean-code-review/target/classes:/home/codespace/.m2/repository/com/tngtech/archunit/archunit-junit5/1.0.1/archunit-junit5-1.0.1.jar:/home/codespace/.m2/repository/com/tngtech/archunit/archunit-junit5-api/1.0.1/archunit-junit5-api-1.0.1.jar:/home/codespace/.m2/repository/com/tngtech/archunit/archunit/1.0.1/archunit-1.0.1.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/home/codespace/.m2/repository/com/tngtech/archunit/archunit-junit5-engine/1.0.1/archunit-junit5-engine-1.0.1.jar:/home/codespace/.m2/repository/com/tngtech/archunit/archunit-junit5-engine-api/1.0.1/archunit-junit5-engine-api-1.0.1.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/clean-code-review-cmanager/clean-code-review/target/surefire/surefirebooter-20251210004221195_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/clean-code-review-cmanager/clean-code-review/target/surefire/surefirebooter-20251210035940258_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+10-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -36,7 +36,6 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="skipTests" value="false"/>
     <property name="java.vendor.version" value="Microsoft-12574458"/>
     <property name="localRepository" value="/home/codespace/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
@@ -54,23 +53,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="no_public_fields" classname="ArchitectureTest" time="1.369">
-    <failure message="Architecture Violation [Priority: MEDIUM] - Rule &apos;fields should not be public, because Los atributos públicos violan encapsulamiento&apos; was violated (2 times):&#10;Field &lt;com.clean.code.CManager.cList&gt; has modifier PUBLIC in (CManager.java:0)&#10;Field &lt;com.clean.code.CManager.oList&gt; has modifier PUBLIC in (CManager.java:0)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Architecture Violation [Priority: MEDIUM] - Rule 'fields should not be public, because Los atributos públicos violan encapsulamiento' was violated (2 times):
-Field <com.clean.code.CManager.cList> has modifier PUBLIC in (CManager.java:0)
-Field <com.clean.code.CManager.oList> has modifier PUBLIC in (CManager.java:0)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)
-	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
+  <testcase name="no_public_fields" classname="ArchitectureTest" time="1.574">
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="classes_should_end_with_Manager" classname="ArchitectureTest" time="0.002"/>
+  <testcase name="classes_should_end_with_Manager" classname="ArchitectureTest" time="0.003"/>
 </testsuite>

@@ -1,44 +1,51 @@
 
-*com.clean.code.CManager#%field_initializer
-__unknown_file ("1*ö	
-1 (¢Ÿ
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java$ (/
-%0java.util.ArrayList"java.util.ArrayListÀ
-½
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java  (1
+6com.clean.code.CustomerOrderManager#%field_initializer
+__unknown_file ("1*ç
+
+1 (®«
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java
+/ 
+(:
+%0java.util.ArrayList"java.util.ArrayListÌ
+É
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java
++ 
+(<
 %1"java.util.ArrayList#<init>()V*'
  (
 
-%0java.util.ArrayListÇ
-Ä
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java (2$
-com.clean.code.CManager"
-cList"__id*'
+%0java.util.ArrayListã
+à
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java
+ 
+(=4%
+#com.clean.code.CustomerOrderManager"
+	customers"__id*'
  (
 
-%0java.util.ArrayList¢Ÿ
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java$ (/
-%2java.util.ArrayList"java.util.ArrayListÀ
-½
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java  (1
+%0java.util.ArrayList®«
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java, (7
+%2java.util.ArrayList"java.util.ArrayListÌ
+É
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java( (9
 %3"java.util.ArrayList#<init>()V*'
  (
 
-%2java.util.ArrayListÇ
-Ä
-m
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java (2$
-com.clean.code.CManager"
-oList"__id*'
+%2java.util.ArrayListà
+Ý
+y
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java (:1%
+#com.clean.code.CustomerOrderManager"
+orders"__id*'
  (
 
-%2java.util.ArrayList"‚
-k
-c/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CManager.java 3(
-implicit returnB
-com.clean.code.CManager
+%2java.util.ArrayList"Ž
+w
+o/workspaces/clean-code-review-cmanager/clean-code-review/src/main/java/com/clean/code/CustomerOrderManager.java A(
+implicit returnB'%
+#com.clean.code.CustomerOrderManager
