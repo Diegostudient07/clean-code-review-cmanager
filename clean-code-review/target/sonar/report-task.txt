@@ -1,0 +1,7 @@
+organization=diegostudient07
+projectKey=Diegostudient07_clean-code-review-cmanager
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.77146
+dashboardUrl=https://sonarcloud.io/dashboard?id=Diegostudient07_clean-code-review-cmanager
+ceTaskId=AZsBrPKTh2NfDoX561Fv
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZsBrPKTh2NfDoX561Fv
